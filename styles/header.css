@@ -1,0 +1,66 @@
+.header{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo{
+    height: 45px;  
+}
+
+.left-section{
+    text-align: right;
+    padding: 20px;
+}
+
+.middle-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    min-width: 100px;
+}
+
+.right-section{
+    display: grid;
+    grid-template-columns: 90px 90px;
+    justify-content: space-around;
+    align-items: center;  
+    margin-right: 120px;
+}
+
+.login-button{
+    width: 90px;
+    height: 36px;
+    border-color: rgb(0, 94, 166);
+    background-color: white;
+    border-radius: 18px;
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(0, 94, 166);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.signup-button{
+    width: 90px;
+    height: 36px;
+    background-color: rgb(0, 94, 166);
+    border-radius: 18px;
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
